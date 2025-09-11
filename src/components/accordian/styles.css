@@ -1,0 +1,36 @@
+
+body{
+    width:100vw;
+    height:100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordian{
+    width:480px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordian button{
+    height:38px;
+    width:200px;
+    cursor: pointer;
+    align-content: center;
+}
+
+.accordian>div{
+    width:100%;
+}
+
+.question{
+    font-size: 20px;
+    font-weight: bolder;
+
+    cursor: pointer;
+}

@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import data from "./components/accordian/data"
+import Accordian from './components/accordian';
+import RandomColor from './components/random-color';
+import StarRating from './components/star-rating';
+import ImageSlider from './components/image-slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Accordian />*/}
+      {/*<RandomColor />*/}
+      {/*<StarRating numOfStars={10}/>*/}
+      <ImageSlider url={"https://picsum.photos/v2/list"} page={3} limit={6}/>
     </div>
   );
 }
