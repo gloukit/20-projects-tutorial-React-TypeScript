@@ -7,4 +7,4 @@
 - 使用 TypeScript 语法；
 - 功能拓展：
   - `image-slider`图片轮播项目：利用定时器，新增“自动播放”功能；
-  - `QRCode`项目：引入`html-to-image`库，增加“二维码图片下载”功能；
+  - `QRCode`生成项目：引入`html-to-image`库，增加“二维码图片下载”功能；
