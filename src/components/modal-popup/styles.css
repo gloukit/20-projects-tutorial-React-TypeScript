@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin:50px;
+}
+
+.modal-test>button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(38, 123, 226);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    position: relative;
+}
+.modal-test>button:active{
+    transform: translateY(1px) scale(0.95);
+}
+
+.modal{
+    width:400px;
+    background-color: #baf005;
+    border: 1px solid rgba(0, 128, 0, 0.707);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;  /*相对于浏览器窗口进行定位*/
+    top:110px;
+    z-index: 1;  /*面板悬浮的必要条件*/
+}
+
+.modal-content{
+    width:100%;
+    background-color: #fefefe;
+    position:relative;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+    padding: 15px;
+    background-color: #5cb85c;
+    color: #fff;
+
+    position: relative;
+}
+
+.close-modal-icon{
+    position: absolute; /*关闭图标相对于弹窗的位置*/
+    right: 5px;
+    top:0px;
+
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close-modal-icon:hover{
+    color: #047a04;
+}
+
+.body {
+  padding: 15px;
+  height: 200px;
+}
+
+.footer {
+  width:100%;
+  padding: 10px 16px;
+  background-color: #5cb85c;
+  color: #fff;
+  text-align: center;
+}
+
+.others{
+    margin:30px;
+}

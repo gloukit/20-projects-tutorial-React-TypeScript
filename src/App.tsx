@@ -11,6 +11,8 @@ import menus from "./components/tree-view/data";
 import QRCodeGenerator from './components/qr-code-generator';
 import SwitchMode from './components/switch-mode';
 import ScrollIndicator from './components/scroll-indicator';
+import TabTest from './components/tab/tab-test';
+import ModalTest from './components/modal-popup/modal-test';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
       {/*<TreeView menus={menus}/>*/}
       {/*<QRCodeGenerator />*/}
       {/*<SwitchMode />*/}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
+      {/*<ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>*/}
+      {/*<TabTest/>*/}
+      <ModalTest />
     </div>
   );
 }
