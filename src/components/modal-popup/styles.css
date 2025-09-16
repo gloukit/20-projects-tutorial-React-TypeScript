@@ -48,12 +48,15 @@ body{
     position: fixed;  /*相对于浏览器窗口进行定位*/
     top:110px;
     z-index: 1;  /*面板悬浮的必要条件*/
+    
+    animation: animateModal 0.5s; /*调用自定义的序列动画*/
 }
 
 .modal-content{
     width:100%;
     background-color: #fefefe;
     position:relative;
+
 }
 
 .header{
@@ -96,4 +99,13 @@ body{
 
 .others{
     margin:30px;
+}
+
+@keyframes animateModal { /*自定义序列动画*/
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
