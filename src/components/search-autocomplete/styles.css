@@ -1,0 +1,22 @@
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.search-autocomplete input{
+    width:200px;
+    height:35px;
+    margin-top:30px;
+    padding-left:5px;
+    padding-right: 5px;
+    border:1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.option{
+    cursor: pointer;
+}
+

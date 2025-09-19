@@ -13,6 +13,8 @@ import SwitchMode from './components/switch-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/tab/tab-test';
 import ModalTest from './components/modal-popup/modal-test';
+import GithubProfileFinder from './components/github-profile-finder';
+import SearchAutocomplete from './components/search-autocomplete';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
       {/*<SwitchMode />*/}
       {/*<ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>*/}
       {/*<TabTest/>*/}
-      <ModalTest />
+      {/*<ModalTest />*/}
+      {/*<GithubProfileFinder />*/}
+      <SearchAutocomplete />
     </div>
   );
 }
