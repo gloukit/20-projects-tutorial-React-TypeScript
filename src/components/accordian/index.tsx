@@ -38,11 +38,10 @@ export default function Accordian(){
             </button>
 
             {data.map(item=>(
-                <div key={item.id}>
+                <div key={item.id} className="qa-container">
                     <p className="question" onClick={()=>handleAnswers(item.id)}> 
                         {item.question}
                     </p>
-                    
                     {allowList.includes(item.id) && <p className="answer">{item.answer}</p>}  
                 </div>
             ))
