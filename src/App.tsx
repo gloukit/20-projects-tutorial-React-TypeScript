@@ -21,6 +21,8 @@ import FeatureFlagsGloubalState from './components/feature-flag/context';
 import UseFetchTest from './components/use-fetch/test';
 import OutsideClickTest from './components/use-outside-click/test';
 import WindowSizesTest from './components/use-window-resize/test';
+import ScrollToTopAndBottom from './components/scroll-top-and-bottom';
+import ScrollToSection from './components/scroll-to-section';
 
 function App() {
   return (
@@ -44,7 +46,9 @@ function App() {
       </FeatureFlagsGloubalState>*/}
       {/*<UseFetchTest />*/}
       {/*<OutsideClickTest/>*/}
-      <WindowSizesTest />
+      {/*<WindowSizesTest />*/}
+      {/*<ScrollToTopAndBottom />*/}
+      <ScrollToSection/>
     </div>
   );
 }
